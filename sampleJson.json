@@ -1,0 +1,28 @@
+{
+    "status": "success",
+    "message": "Large response payload",
+    "data": [
+        {
+            "id": 1,
+            "name": "Sample Data 1",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "metadata": {
+                "category": "Category A",
+                "tags": [
+                    "tag1",
+                    "tag2",
+                    "tag3"
+                ],
+                "attributes": {
+                    "size": "large",
+                    "weight": 123.45,
+                    "dimensions": {
+                        "width": 50,
+                        "height": 100,
+                        "depth": 25
+                    }
+                }
+            }
+        }
+    ]
+}
