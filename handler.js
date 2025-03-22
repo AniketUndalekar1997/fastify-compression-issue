@@ -13,9 +13,9 @@ const yourHandler = {
         reply.type('application/json');
 
         if (res) {
-            reply.compress(res); // Use compression
+            return reply.compress(res); // Use compression
         } else {
-            reply.status(204).send();
+            return reply.status(204).send();
         }
     },
 };
